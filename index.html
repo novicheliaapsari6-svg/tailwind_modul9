@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <title>Mini Proyek Modul 9</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-100 font-sans">
+
+  <header class="bg-white border-b border-slate-200 px-6 py-4 flex justify-between items-center shadow-sm">
+
+    <div class="flex items-center gap-2">
+      <div class="w-9 h-9 bg-blue-600 rounded-lg flex items-center justify-center text-white font-extrabold text-lg shadow-sm shadow-blue-500/30">
+        R
+      </div>
+      <div>
+        <h1 class="font-bold text-slate-800 leading-tight">RPL DevPortal</h1>
+        <p class="text-[11px] font-medium text-slate-400">SMKS Negeri 1</p>
+      </div>
+    </div>
+
+    <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600">
+      <a href="#" class="text-blue-600 font-semibold">Beranda</a>
+      <a href="#" class="hover:text-blue-600 transition">Jadwal Pelajaran</a>
+      <a href="#" class="hover:text-blue-600 transition">Tugas PjBL</a>
+      <a href="#" class="hover:text-blue-600 transition">E-Rapor</a>
+    </nav>
+
+    <div class="flex items-center gap-3">
+      <span class="text-xs text-slate-500 font-medium hidden sm:inline">Halo, Novi</span>
+      <button class="bg-slate-900 hover:bg-slate-800 text-white text-xs font-semibold px-4 py-2 rounded-lg transition shadow-sm">
+        Keluar
+      </button>
+    </div>
+
+  </header>
+
+<main class="p-8 max-w-4xl mx-auto text-center">
+  <div class="bg-white p-8 rounded-xl border border-slate-200 mt-6">
+    <h2 class="text-xl font-bold text-slate-800">
+      Selamat Datang di Portal Rekayasa Perangkat Lunak
+    </h2>
+    <p class="text-sm text-slate-500 mt-2">
+      Perhatikan bagaimana komponen navbar di atas tertata rapi dari ujung kiri
+      hingga kanan berkat kekuatan flexbox.
+    </p>
+  </div>
+
+  <div class="flex justify-center items-center gap-2 mt-6">
+    <button class="bg-blue-600 text-white text-xs font-semibold px-4 py-2 rounded-full">
+      Semua Tugas
+    </button>
+
+    <button class="bg-slate-200 text-slate-700 hover:bg-slate-300 text-xs font-semibold px-4 py-2 rounded-full">
+      Belum Dikerjakan
+    </button>
+
+    <button class="bg-slate-200 text-slate-700 hover:bg-slate-300 text-xs font-semibold px-4 py-2 rounded-full">
+      Sedang Dinilai
+    </button>
+
+    <button class="bg-slate-200 text-slate-700 hover:bg-slate-300 text-xs font-semibold px-4 py-2 rounded-full">
+      Selesai
+    </button>
+  </div>
+</main>
+
+</body>
+</html>
